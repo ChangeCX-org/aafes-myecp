@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY Middleware/package.json ./
+COPY ./Middleware/package.json ./
 
 RUN npm install
 
