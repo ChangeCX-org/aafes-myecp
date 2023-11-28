@@ -6,7 +6,7 @@ COPY ./Middleware/package.json ./
 
 RUN npm install
 
-COPY . .
+COPY ./Middleware/ .
 
 EXPOSE 8080
 
