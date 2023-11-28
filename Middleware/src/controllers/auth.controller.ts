@@ -15,36 +15,36 @@ export const login = async (req: any, res: any) => {
 		// ** destructure the information from user;
 		const { email, password } = user;
 
-		const { data, status, headers } = await axios.post<CreateUserResponse>(
-			`${baseUrl}/Account/LoginApi`,
-			req.body,
-			{
-				headers: {
-					'Content-Type': 'application/json', 
-					Accept: 'application/json',
-			  	},
-			},
-		);
+		// const { data, status, headers } = await axios.post<CreateUserResponse>(
+		// 	`${baseUrl}/Account/LoginApi`,
+		// 	req.body,
+		// 	{
+		// 		headers: {
+		// 			'Content-Type': 'application/json', 
+		// 			Accept: 'application/json',
+		// 	  	},
+		// 	},
+		// );
 
-		console.log(headers['set-cookie']);
-		console.log(JSON.stringify(data, null, 4));
-		console.log(status);
+		// console.log(headers['set-cookie']);
+		// console.log(JSON.stringify(data, null, 4));
+		// console.log(status);
 	  
-		res.status(200).json({
-			status: status,
-			success: true,
-			message: "login success",
-			token: data.Token
-		});
+		// res.status(200).json({
+		// 	status: status,
+		// 	success: true,
+		// 	message: "login success",
+		// 	token: data.Token
+		// });
 
 		// ** Check the (email/user) exist  in database or not ;
-		//const isUserExist = email == "test@changecx.com" && password == "Password@123";
+		const isUserExist = email == "test@changecx.com" && password == "Password@123";
 
 		// ** if there is not any user we will send user not found;
-		// if (!isUserExist) {
-		// 	res.status(404).json({status: 404,  success: false, message: "User not found",});
-		// 	return;
-		// }		
+		if (!isUserExist) {
+			res.status(404).json({status: 404,  success: false, message: "User not found",});
+			return;
+		}		
 
 		 // ** if the (user) exist  in database we will check the password is valid or not ;
     	// **  compare the password in db and the password sended in the request body
@@ -74,43 +74,43 @@ export const login = async (req: any, res: any) => {
 		// !! Don't Provide the secret openly, keep it in the .env file. I am Keeping Open just for demonstration
 
 		// ** This is our JWT Token
-		// const token = jwt.sign(
-		// 		{ 
-		// 			_id: 1, 
-		// 			email: "test@changecx.com" 
-		// 		},
-		// 		process.env.SECRET_KEY || "ThisIsTest",
-		// 		{
-		// 			expiresIn: "5m",
-		// 		}
-		// 	);
+		const token = jwt.sign(
+				{ 
+					_id: 1, 
+					email: "test@changecx.com" 
+				},
+				process.env.SECRET_KEY || "ThisIsTest",
+				{
+					expiresIn: "5m",
+				}
+			);
 
 		// send the response
-		// res.status(200).json({
-		// 	status: 200,
-		// 	success: true,
-		// 	message: "login success",
-		// 	token: token,
-		// });
+		res.status(200).json({
+			status: 200,
+			success: true,
+			message: "login success",
+			token: token,
+		});
 	} catch (error: any) {
 		// Send the error message to the client
-		// res.status(400).json({
-		// 	status: 400,
-		// 	message: error.message.toString(),
-		//});		
+		res.status(400).json({
+			status: 400,
+			message: error.message.toString(),
+		});		
 
-		if (axios.isAxiosError(error)) {
-			console.log('error message: ', error.message);
-			res.status(400).json({
-				status: 400,
-				message: error.message.toString(),
-			});
-		} else {
-			console.log('unexpected error: ', error);
-			res.status(400).json({
-				status: 400,
-				message: error.message.toString(),
-			});
-		}
+		// if (axios.isAxiosError(error)) {
+		// 	console.log('error message: ', error.message);
+		// 	res.status(400).json({
+		// 		status: 400,
+		// 		message: error.message.toString(),
+		// 	});
+		// } else {
+		// 	console.log('unexpected error: ', error);
+		// 	res.status(400).json({
+		// 		status: 400,
+		// 		message: error.message.toString(),
+		// 	});
+		// }
 	}
 };
