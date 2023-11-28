@@ -1,7 +1,7 @@
 steps:
  
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/$PROJECT_ID/my-ecp-backend", "./Middleware/DockerFile"]
+    args: ["build", "-t", "gcr.io/$PROJECT_ID/my-ecp-backend",'-f', './Middleware/Dockerfile', '.' ]
 
   - name: "gcr.io/cloud-builders/docker"
     args: ["push", "gcr.io/$PROJECT_ID/my-ecp-backend"]
