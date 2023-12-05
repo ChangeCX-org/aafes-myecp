@@ -1,5 +1,7 @@
 import axios from 'axios';
 import jwt from 'jsonwebtoken';
+import User from '../models/registration.model';
+import { users } from '../utils/users';
 
 type CreateUserResponse = {
 	Success: string;
@@ -38,10 +40,9 @@ export const login = async (req: any, res: any) => {
 		// });
 
 		// ** Check the (email/user) exist  in database or not ;
-		const isUserExist = email == "test@changecx.com" && password == "Password@123";
-
+		let filteredUsers: User[] = users.filter(c => c.email == email && c.password == password);
 		// ** if there is not any user we will send user not found;
-		if (!isUserExist) {
+		if (filteredUsers.length <= 0) {
 			res.status(404).json({status: 404,  success: false, message: "User not found",});
 			return;
 		}		
@@ -76,12 +77,13 @@ export const login = async (req: any, res: any) => {
 		// ** This is our JWT Token
 		const token = jwt.sign(
 				{ 
-					_id: 1, 
-					email: "test@changecx.com" 
+					_id: filteredUsers[0].userId, 
+					email: filteredUsers[0].email,
+					role: filteredUsers[0].role
 				},
-				process.env.SECRET_KEY || "ThisIsTest",
+				process.env.SECRET_KEY || "ThisIsMySecretKey",
 				{
-					expiresIn: "5m",
+					expiresIn: "5m",					
 				}
 			);
 
