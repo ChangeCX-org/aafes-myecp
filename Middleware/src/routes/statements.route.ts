@@ -5,6 +5,6 @@ import { auth } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/', getStatements)
+router.get('/', auth, getStatements)
 
 export default router;

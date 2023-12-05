@@ -5,12 +5,12 @@ import { auth } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/', getAvailableRewards)
+router.get('/', auth, getAvailableRewards)
 
-router.post('/', postRewards);
+router.post('/', auth, postRewards);
 
-router.patch("/:id", patchRewards);
+router.patch("/:id", auth, patchRewards);
 
-router.delete("/:id", deleteRewards);
+router.delete("/:id", auth, deleteRewards);
 
 export default router;

@@ -4,28 +4,31 @@ import Reward from '../models/reward';
 
 export const getAvailableRewards = async (req: Request, res: Response) => {
     try {
-		const baseUrl = process.env.DOT_NET_URL;
-        console.log(req);
+		// const baseUrl = process.env.DOT_NET_URL;
+        // console.log(req);
 
-		const { data, status, headers } = await axios.get<Reward>(
-			`${baseUrl}/Rewards/Index`,
-			{
-				headers: {
-					'Content-Type': 'application/json', 
-					Accept: 'application/json',
-                    'Cookie': req.headers.cookie
-			  	},                
-			},
-		);
+		// const { data, status, headers } = await axios.get<Reward>(
+		// 	`${baseUrl}/Rewards/Index`,
+		// 	{
+		// 		headers: {
+		// 			'Content-Type': 'application/json', 
+		// 			Accept: 'application/json',
+        //             'Cookie': req.headers.cookie
+		// 	  	},                
+		// 	},
+		// );
 
-        console.log(headers);
-		console.log(headers['set-cookie']);
-		console.log(JSON.stringify(data, null, 4));
-		console.log(status);
+        // console.log(headers);
+		// console.log(headers['set-cookie']);
+		// console.log(JSON.stringify(data, null, 4));
+		// console.log(status);
 	  
+		// res.status(200).json({
+		// 	status: status,
+		// 	data: data
+		// });
 		res.status(200).json({
-			status: status,
-			data: data
+			status: 200,
 		});
 	} catch (error: any) {
 		// Send the error message to the client

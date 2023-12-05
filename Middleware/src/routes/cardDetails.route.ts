@@ -4,9 +4,9 @@ import { auth } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/', getCards);
-router.get('/:id', getCardDetails);
-router.post('/', createCard);
-router.delete('/:id', deleteCard);
+router.get('/', auth, getCards);
+router.get('/:id', auth, getCardDetails);
+router.post('/', auth, createCard);
+router.delete('/:id', auth, deleteCard);
 
 export default router;

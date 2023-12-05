@@ -11,28 +11,31 @@ export const updateProfile = async (req: any) => {
 
 export const updatePhoneNumber = async (req: any, res: any) => {
 	try {
-		const baseUrl = process.env.DOT_NET_URL;
-        console.log(req);
+		// const baseUrl = process.env.DOT_NET_URL;
+        // console.log(req);
 
-		const { data, status, headers } = await axios.get<User>(
-			`${baseUrl}/Profile/ChangePhoneNumber`,
-			{
-				headers: {
-					'Content-Type': 'application/json', 
-					Accept: 'application/json',
-                    'Cookie': req.headers.cookie
-			  	},                
-			},
-		);
+		// const { data, status, headers } = await axios.get<User>(
+		// 	`${baseUrl}/Profile/ChangePhoneNumber`,
+		// 	{
+		// 		headers: {
+		// 			'Content-Type': 'application/json', 
+		// 			Accept: 'application/json',
+        //             'Cookie': req.headers.cookie
+		// 	  	},                
+		// 	},
+		// );
 
-        console.log(headers);
-		console.log(headers['set-cookie']);
-		console.log(JSON.stringify(data, null, 4));
-		console.log(status);
+        // console.log(headers);
+		// console.log(headers['set-cookie']);
+		// console.log(JSON.stringify(data, null, 4));
+		// console.log(status);
 	  
+		// res.status(200).json({
+		// 	status: status,
+		// 	data: data
+		// });
 		res.status(200).json({
-			status: status,
-			data: data
+			status: 200,
 		});
 	} catch (error: any) {
 		// Send the error message to the client
