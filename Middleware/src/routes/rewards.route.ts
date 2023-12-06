@@ -5,7 +5,7 @@ import { auth } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/card/:id/rewards', auth, getAvailableRewards)
+router.get('/card', auth, getAvailableRewards)
 
 router.post('/', auth, postRewards);
 

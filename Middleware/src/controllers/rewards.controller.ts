@@ -27,8 +27,22 @@ export const getAvailableRewards = async (req: Request, res: Response) => {
 		// 	status: status,
 		// 	data: data
 		// });
+
+		const dummyRewards = [
+            {
+                cardNumber: '1234567890',
+                currentPointBalance: 78,
+                expiryDate: '14-03-2024',
+                lifetimePointEarned: 40000,
+                lifetimeRewardsCards: 10,
+                lifetimeRewardsValue: '$360',
+            },
+            // Add more reward records if needed
+        ];
+
 		res.status(200).json({
 			status: 200,
+			data:dummyRewards
 		});
 	} catch (error: any) {
 		// Send the error message to the client
