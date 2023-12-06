@@ -1,24 +1,8 @@
 import express, { Request, Response } from 'express';
 import axios from 'axios';
 import Offer from '../models/offer';
-const available_rewards = [
-	{
-		offerTitle: "Title1",
-		availableIn: "Location1",
-		offerStartDate: "2024-01-01",
-		offerEndDate: "2024-01-31",
-		offerDesc: "Description1",
-		offerTerms: "Terms1"
-	},
-	{
-		offerTitle: "Title2",
-		availableIn: "Location2",
-		offerStartDate: "2024-02-01",
-		offerEndDate: "2024-02-28",
-		offerDesc: "Description2",
-		offerTerms: "Terms2"
-	},
-];
+const offers = require('../sample/offer.json');
+
 export const getAvailableOffers = async (req: Request, res: Response) => {
 	try {
 		// const baseUrl = process.env.DOT_NET_URL;
@@ -44,10 +28,9 @@ export const getAvailableOffers = async (req: Request, res: Response) => {
 		// 	status: status,
 		// 	data: data
 		// });
-		res.status(200).json({
-			status: 200,
-			message: available_rewards
-		});
+		  var limit = Number(req.query.limit) || offers.length;
+		  var offset = Number(req.query.offset) || 0;
+		  res.status(200).json({offers: offers.slice(offset, limit + offset),status:200})	  
 	} catch (error: any) {
 		// Send the error message to the client
 		// if (axios.isAxiosError(error)) {
