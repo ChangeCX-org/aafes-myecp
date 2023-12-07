@@ -13,10 +13,10 @@ const router = express.Router();
 router.use('/auth', authRouter);
 router.use('/users', userRouter);
 router.use('/cards', cardDetailRouter);
+router.use('/cards/:id/statements',  statmentRouter);
 router.use('/rewards',  rewardsRouter);
 router.use('/payments', paymentsRouter);
 router.use('/register', registerRouter);
 router.use('/offers',  offerRouter);
-router.use('/cards/:id/statements',  statmentRouter);
 
 export default router;

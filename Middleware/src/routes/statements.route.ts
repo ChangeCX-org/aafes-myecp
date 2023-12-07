@@ -5,8 +5,8 @@ import { auth } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/card/:id/statements', auth, getStatements)
+router.get('/', auth, getStatements);
 
-router.get('/card/:id/statements/:id', auth, getStatementDetails)
+router.get('/:id', auth, getStatementDetails);
 
 export default router;
