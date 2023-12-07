@@ -1,291 +1,326 @@
 [
     {
-      "offer": "Spring Sale",
-      "title": "Blooming Discounts",
-      "subTitle": "Seasonal Offers",
-      "description": "Welcome spring with our special Spring Sale! Enjoy exclusive discounts on floral arrangements, gardening tools, and outdoor essentials. Embrace the season of renewal with these limited-time offers.",
-      "startDate": "01 Mar 2024",
-      "endDate": "31 Mar 2024"
+       "offer":"Spring Sale",
+       "title":"Blooming Discounts",
+       "subTitle":"Seasonal Offers",
+       "description":"Welcome spring with our special Spring Sale! Enjoy exclusive discounts on floral arrangements, gardening tools, and outdoor essentials. Embrace the season of renewal with these limited-time offers.",
+       "startDate":"01 Mar 2024",
+       "endDate":"31 Mar 2024",
+       "id":1
     },
     {
-      "offer": "Tech Bonanza",
-      "title": "Gadget Galore Deals",
-      "subTitle": "Tech Discounts",
-      "description": "Indulge in the latest tech trends with our Tech Bonanza! Exclusive discounts on gadgets, electronics, and accessories. Upgrade your devices and stay ahead of the curve with these special offers.",
-      "startDate": "05 Apr 2024",
-      "endDate": "15 Apr 2024"
+       "offer":"Tech Bonanza",
+       "title":"Gadget Galore Deals",
+       "subTitle":"Tech Discounts",
+       "description":"Indulge in the latest tech trends with our Tech Bonanza! Exclusive discounts on gadgets, electronics, and accessories. Upgrade your devices and stay ahead of the curve with these special offers.",
+       "startDate":"05 Apr 2024",
+       "endDate":"15 Apr 2024",
+       "id":2
     },
     {
-      "offer": "Summer Escapes",
-      "title": "Sunny Savings",
-      "subTitle": "Summer Discounts",
-      "description": "Plan your summer getaway with our Summer Escapes! Exclusive discounts on travel packages, beachwear, and outdoor gear. Make the most of the sunny season with these limited-time offers.",
-      "startDate": "01 Jun 2024",
-      "endDate": "30 Jun 2024"
+       "offer":"Summer Escapes",
+       "title":"Sunny Savings",
+       "subTitle":"Summer Discounts",
+       "description":"Plan your summer getaway with our Summer Escapes! Exclusive discounts on travel packages, beachwear, and outdoor gear. Make the most of the sunny season with these limited-time offers.",
+       "startDate":"01 Jun 2024",
+       "endDate":"30 Jun 2024",
+       "id":3
     },
     {
-      "offer": "Backyard Bliss",
-      "title": "Outdoor Oasis Deals",
-      "subTitle": "Home & Garden Discounts",
-      "description": "Transform your backyard into an oasis with our Backyard Bliss! Enjoy exclusive discounts on outdoor furniture, decor, and gardening supplies. Create a relaxing retreat at home with these special offers.",
-      "startDate": "10 Jul 2024",
-      "endDate": "31 Jul 2024"
+       "offer":"Backyard Bliss",
+       "title":"Outdoor Oasis Deals",
+       "subTitle":"Home & Garden Discounts",
+       "description":"Transform your backyard into an oasis with our Backyard Bliss! Enjoy exclusive discounts on outdoor furniture, decor, and gardening supplies. Create a relaxing retreat at home with these special offers.",
+       "startDate":"10 Jul 2024",
+       "endDate":"31 Jul 2024",
+       "id":4
     },
     {
-      "offer": "Fitness Frenzy",
-      "title": "Active Lifestyle Savings",
-      "subTitle": "Fitness Offers",
-      "description": "Revitalize your fitness routine with our Fitness Frenzy! Exclusive discounts on gym memberships, workout gear, and nutritional supplements. Achieve your health goals with these limited-time offers.",
-      "startDate": "01 Aug 2024",
-      "endDate": "15 Aug 2024"
+       "offer":"Fitness Frenzy",
+       "title":"Active Lifestyle Savings",
+       "subTitle":"Fitness Offers",
+       "description":"Revitalize your fitness routine with our Fitness Frenzy! Exclusive discounts on gym memberships, workout gear, and nutritional supplements. Achieve your health goals with these limited-time offers.",
+       "startDate":"01 Aug 2024",
+       "endDate":"15 Aug 2024",
+       "id":5
     },
     {
-      "offer": "School Ready",
-      "title": "Back-to-School Deals",
-      "subTitle": "Education Discounts",
-      "description": "Gear up for the new school year with our School Ready deals! Exclusive discounts on school supplies, electronics, and educational resources. Start the academic year with these limited-time offers.",
-      "startDate": "20 Aug 2024",
-      "endDate": "31 Aug 2024"
+       "offer":"School Ready",
+       "title":"Back-to-School Deals",
+       "subTitle":"Education Discounts",
+       "description":"Gear up for the new school year with our School Ready deals! Exclusive discounts on school supplies, electronics, and educational resources. Start the academic year with these limited-time offers.",
+       "startDate":"20 Aug 2024",
+       "endDate":"31 Aug 2024",
+       "id":6
     },
     {
-      "offer": "Fall Fashion Fiesta",
-      "title": "Autumn Style Discounts",
-      "subTitle": "Fashion Offers",
-      "description": "Update your wardrobe with our Fall Fashion Fiesta! Enjoy exclusive discounts on autumn styles, accessories, and footwear. Embrace the fall season with these limited-time fashion offers.",
-      "startDate": "05 Sep 2024",
-      "endDate": "30 Sep 2024"
+       "offer":"Fall Fashion Fiesta",
+       "title":"Autumn Style Discounts",
+       "subTitle":"Fashion Offers",
+       "description":"Update your wardrobe with our Fall Fashion Fiesta! Enjoy exclusive discounts on autumn styles, accessories, and footwear. Embrace the fall season with these limited-time fashion offers.",
+       "startDate":"05 Sep 2024",
+       "endDate":"30 Sep 2024",
+       "id":7
     },
     {
-      "offer": "Home Harmony",
-      "title": "Interior Design Specials",
-      "subTitle": "Home Decor Discounts",
-      "description": "Create a harmonious home with our Home Harmony deals! Exclusive discounts on furniture, decor, and home accessories. Transform your space with these limited-time interior design offers.",
-      "startDate": "10 Oct 2024",
-      "endDate": "31 Oct 2024"
+       "offer":"Home Harmony",
+       "title":"Interior Design Specials",
+       "subTitle":"Home Decor Discounts",
+       "description":"Create a harmonious home with our Home Harmony deals! Exclusive discounts on furniture, decor, and home accessories. Transform your space with these limited-time interior design offers.",
+       "startDate":"10 Oct 2024",
+       "endDate":"31 Oct 2024",
+       "id":8
     },
     {
-      "offer": "Winter Wonderland",
-      "title": "Festive Season Discounts",
-      "subTitle": "Holiday Offers",
-      "description": "Celebrate the festive season with our Winter Wonderland! Exclusive discounts on holiday decor, gifts, and festive essentials. Spread joy and warmth with these limited-time holiday offers.",
-      "startDate": "15 Nov 2024",
-      "endDate": "31 Dec 2024"
+       "offer":"Winter Wonderland",
+       "title":"Festive Season Discounts",
+       "subTitle":"Holiday Offers",
+       "description":"Celebrate the festive season with our Winter Wonderland! Exclusive discounts on holiday decor, gifts, and festive essentials. Spread joy and warmth with these limited-time holiday offers.",
+       "startDate":"15 Nov 2024",
+       "endDate":"31 Dec 2024",
+       "id":9
     },
     {
-      "offer": "New Year, New You",
-      "title": "Resolution Deals",
-      "subTitle": "New Year Offers",
-      "description": "Kickstart the new year with our New Year, New You deals! Exclusive discounts on fitness classes, wellness retreats, and self-improvement resources. Make 2025 your best year yet with these limited-time offers.",
-      "startDate": "01 Jan 2025",
-      "endDate": "15 Jan 2025"
+       "offer":"New Year, New You",
+       "title":"Resolution Deals",
+       "subTitle":"New Year Offers",
+       "description":"Kickstart the new year with our New Year, New You deals! Exclusive discounts on fitness classes, wellness retreats, and self-improvement resources. Make 2025 your best year yet with these limited-time offers.",
+       "startDate":"01 Jan 2025",
+       "endDate":"15 Jan 2025",
+       "id":10
     },
     {
-      "offer": "Valentine's Romance",
-      "title": "Romantic Getaway Special",
-      "subTitle": "Valentine's Day Offers",
-      "description": "Plan a romantic getaway with our Valentine's Romance deals! Exclusive discounts on travel packages, romantic dinners, and special experiences. Create lasting memories with your loved one with these limited-time offers.",
-      "startDate": "01 Feb 2025",
-      "endDate": "14 Feb 2025"
+       "offer":"Valentine's Romance",
+       "title":"Romantic Getaway Special",
+       "subTitle":"Valentine's Day Offers",
+       "description":"Plan a romantic getaway with our Valentine's Romance deals! Exclusive discounts on travel packages, romantic dinners, and special experiences. Create lasting memories with your loved one with these limited-time offers.",
+       "startDate":"01 Feb 2025",
+       "endDate":"14 Feb 2025",
+       "id":11
     },
     {
-      "offer": "Spring Cleaning Extravaganza",
-      "title": "Clean Home Discounts",
-      "subTitle": "Spring Offers",
-      "description": "Get ready for spring with our Spring Cleaning Extravaganza! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
-      "startDate": "01 Mar 2025",
-      "endDate": "31 Mar 2025"
+       "offer":"Spring Cleaning Extravaganza",
+       "title":"Clean Home Discounts",
+       "subTitle":"Spring Offers",
+       "description":"Get ready for spring with our Spring Cleaning Extravaganza! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
+       "startDate":"01 Mar 2025",
+       "endDate":"31 Mar 2025",
+       "id":12
     },
-      {
-        "offer": "Summer Splash",
-        "title": "Sizzling Summer Discounts",
-        "subTitle": "Summer Offers",
-        "description": "Make a splash this summer with our Summer Splash deals! Exclusive discounts on beach essentials, swimwear, and outdoor gear. Dive into savings and enjoy the sunny season with these limited-time offers.",
-        "startDate": "01 Jun 2025",
-        "endDate": "30 Jun 2025"
-      },
-      {
-        "offer": "Outdoor Adventure Extravaganza",
-        "title": "Thrilling Outdoor Deals",
-        "subTitle": "Adventure Offers",
-        "description": "Calling all adventure enthusiasts! Embark on an outdoor adventure with our Outdoor Adventure Extravaganza. Exclusive discounts on camping gear, hiking equipment, and adrenaline-pumping experiences. Explore the great outdoors with these limited-time offers.",
-        "startDate": "10 Jul 2025",
-        "endDate": "31 Jul 2025"
-      },
-      {
-        "offer": "Wellness Retreat 2.0",
-        "title": "Mind and Body Rejuvenation",
-        "subTitle": "Health and Wellness Discounts",
-        "description": "Indulge in a wellness retreat with our Wellness Retreat 2.0! Exclusive discounts on spa treatments, yoga classes, and health products. Take a step towards relaxation and rejuvenation with these limited-time offers.",
-        "startDate": "01 Aug 2025",
-        "endDate": "15 Aug 2025"
-      },
-      {
-        "offer": "Back-to-School Bonanza",
-        "title": "School Year Savings",
-        "subTitle": "Education Discounts",
-        "description": "Prepare for the new school year with our Back-to-School Bonanza! Exclusive discounts on school supplies, electronics, and educational resources. Gear up for success with these limited-time offers.",
-        "startDate": "20 Aug 2025",
-        "endDate": "31 Aug 2025"
-      },
-      {
-        "offer": "Autumn Harvest Special",
-        "title": "Fall Flavors Discounts",
-        "subTitle": "Seasonal Offers",
-        "description": "Celebrate the fall season with our Autumn Harvest Special! Exclusive discounts on seasonal treats, cozy essentials, and fall-themed decor. Embrace the warmth of fall with these limited-time offers.",
-        "startDate": "05 Sep 2025",
-        "endDate": "30 Sep 2025"
-      },
-      {
-        "offer": "Tech Innovation Expo",
-        "title": "Cutting-Edge Tech Deals",
-        "subTitle": "Tech Discounts",
-        "description": "Stay at the forefront of technology with our Tech Innovation Expo! Exclusive discounts on the latest gadgets, electronics, and innovative tech accessories. Upgrade your tech game with these special offers.",
-        "startDate": "10 Oct 2025",
-        "endDate": "31 Oct 2025"
-      },
-      {
-        "offer": "Cozy Winter Retreat",
-        "title": "Winter Warmth Discounts",
-        "subTitle": "Holiday Offers",
-        "description": "Escape the winter chill with our Cozy Winter Retreat! Exclusive discounts on winter apparel, home essentials, and festive decorations. Stay warm and festive with these limited-time holiday offers.",
-        "startDate": "15 Nov 2025",
-        "endDate": "31 Dec 2025"
-      },
-      {
-        "offer": "New Year, New Adventures",
-        "title": "Adventure Awaits Deals",
-        "subTitle": "New Year Offers",
-        "description": "Embark on new adventures with our New Year, New Adventures deals! Exclusive discounts on travel experiences, outdoor activities, and exploration gear. Make 2026 a year of exciting discoveries with these limited-time offers.",
-        "startDate": "01 Jan 2026",
-        "endDate": "15 Jan 2026"
-      },
-      {
-        "offer": "Valentine's Sweet Escape",
-        "title": "Romantic Getaway Special",
-        "subTitle": "Valentine's Day Offers",
-        "description": "Plan a sweet escape with our Valentine's Sweet Escape deals! Exclusive discounts on romantic getaways, fine dining experiences, and special surprises. Create lasting memories with your loved one with these limited-time offers.",
-        "startDate": "01 Feb 2026",
-        "endDate": "14 Feb 2026"
-      },
-      {
-        "offer": "Spring Cleaning Extravaganza 2.0",
-        "title": "Fresh Home Discounts",
-        "subTitle": "Spring Offers",
-        "description": "Get ready for spring with our Spring Cleaning Extravaganza 2.0! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
-        "startDate": "01 Mar 2026",
-        "endDate": "31 Mar 2026"
-      },
-      {
-        "offer": "Easter Celebration Bonanza",
-        "title": "Easter Deals",
-        "subTitle": "Holiday Offers",
-        "description": "Celebrate Easter with our Easter Celebration Bonanza! Exclusive discounts on festive decor, Easter treats, and family-friendly activities. Hop into savings with these special offers.",
-        "startDate": "10 Apr 2026",
-        "endDate": "21 Apr 2026"
-      },
-      {
-        "offer": "Earth Day Eco-Savings 2.0",
-        "title": "Green Living Discounts",
-        "subTitle": "Environmental Offers",
-        "description": "Celebrate Earth Day with our Earth Day Eco-Savings 2.0! Exclusive discounts on eco-friendly products, sustainable living essentials, and environmental initiatives. Make a positive impact with these limited-time offers.",
-        "startDate": "22 Apr 2026",
-        "endDate": "30 Apr 2026"
-      },
-        {
-          "offer": "Spring Renewal Sale",
-          "title": "Fresh Season Discounts",
-          "subTitle": "Seasonal Offers",
-          "description": "Renew your surroundings with our Spring Renewal Sale! Enjoy exclusive discounts on spring decor, gardening essentials, and outdoor living. Embrace the freshness of the season with these limited-time offers.",
-          "startDate": "01 Mar 2026",
-          "endDate": "31 Mar 2026"
-        },
-        {
-          "offer": "Tech Marvel Expo",
-          "title": "Cutting-Edge Tech Deals",
-          "subTitle": "Tech Discounts",
-          "description": "Experience the marvels of technology with our Tech Marvel Expo! Exclusive discounts on the latest gadgets, electronics, and futuristic tech accessories. Upgrade your tech game with these special offers.",
-          "startDate": "05 Apr 2026",
-          "endDate": "15 Apr 2026"
-        },
-        {
-          "offer": "Summer Adventure Spectacular",
-          "title": "Thrilling Outdoor Deals",
-          "subTitle": "Adventure Offers",
-          "description": "Embark on a summer adventure with our Summer Adventure Spectacular. Exclusive discounts on outdoor gear, travel experiences, and adrenaline-pumping activities. Make the most of the sunny season with these limited-time offers.",
-          "startDate": "01 Jun 2026",
-          "endDate": "30 Jun 2026"
-        },
-        {
-          "offer": "Backyard Bliss 2.0",
-          "title": "Outdoor Oasis Deals",
-          "subTitle": "Home & Garden Discounts",
-          "description": "Transform your backyard into an oasis with our Backyard Bliss 2.0! Enjoy exclusive discounts on outdoor furniture, decor, and gardening supplies. Create a relaxing retreat at home with these special offers.",
-          "startDate": "10 Jul 2026",
-          "endDate": "31 Jul 2026"
-        },
-        {
-          "offer": "Fitness Fanatic Bonanza",
-          "title": "Active Lifestyle Savings",
-          "subTitle": "Fitness Offers",
-          "description": "Revitalize your fitness routine with our Fitness Fanatic Bonanza! Exclusive discounts on gym memberships, workout gear, and nutritional supplements. Achieve your health goals with these limited-time offers.",
-          "startDate": "01 Aug 2026",
-          "endDate": "15 Aug 2026"
-        },
-        {
-          "offer": "Back-to-School Extravaganza",
-          "title": "School Year Savings",
-          "subTitle": "Education Discounts",
-          "description": "Prepare for the new school year with our Back-to-School Extravaganza! Exclusive discounts on school supplies, electronics, and educational resources. Gear up for success with these limited-time offers.",
-          "startDate": "20 Aug 2026",
-          "endDate": "31 Aug 2026"
-        },
-        {
-          "offer": "Autumn Harvest Special 2.0",
-          "title": "Fall Flavors Discounts",
-          "subTitle": "Seasonal Offers",
-          "description": "Celebrate the fall season with our Autumn Harvest Special 2.0! Exclusive discounts on seasonal treats, cozy essentials, and fall-themed decor. Embrace the warmth of fall with these limited-time offers.",
-          "startDate": "05 Sep 2026",
-          "endDate": "30 Sep 2026"
-        },
-        {
-          "offer": "Tech Innovation Expo 2.0",
-          "title": "Cutting-Edge Tech Deals",
-          "subTitle": "Tech Discounts",
-          "description": "Stay at the forefront of technology with our Tech Innovation Expo 2.0! Exclusive discounts on the latest gadgets, electronics, and innovative tech accessories. Upgrade your tech game with these special offers.",
-          "startDate": "10 Oct 2026",
-          "endDate": "31 Oct 2026"
-        },
-        {
-          "offer": "Cozy Winter Retreat 2.0",
-          "title": "Winter Warmth Discounts",
-          "subTitle": "Holiday Offers",
-          "description": "Escape the winter chill with our Cozy Winter Retreat 2.0! Exclusive discounts on winter apparel, home essentials, and festive decorations. Stay warm and festive with these limited-time holiday offers.",
-          "startDate": "15 Nov 2026",
-          "endDate": "31 Dec 2026"
-        },
-        {
-          "offer": "New Year, New Adventures 2.0",
-          "title": "Adventure Awaits Deals",
-          "subTitle": "New Year Offers",
-          "description": "Embark on new adventures with our New Year, New Adventures 2.0 deals! Exclusive discounts on travel experiences, outdoor activities, and exploration gear. Make 2027 a year of exciting discoveries with these limited-time offers.",
-          "startDate": "01 Jan 2027",
-          "endDate": "15 Jan 2027"
-        },
-        {
-          "offer": "Valentine's Sweet Escape 2.0",
-          "title": "Romantic Getaway Special",
-          "subTitle": "Valentine's Day Offers",
-          "description": "Plan a sweet escape with our Valentine's Sweet Escape 2.0 deals! Exclusive discounts on romantic getaways, fine dining experiences, and special surprises. Create lasting memories with your loved one with these limited-time offers.",
-          "startDate": "01 Feb 2027",
-          "endDate": "14 Feb 2027"
-        },
-        {
-          "offer": "Spring Cleaning Extravaganza 3.0",
-          "title": "Fresh Home Discounts",
-          "subTitle": "Spring Offers",
-          "description": "Get ready for spring with our Spring Cleaning Extravaganza 3.0! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
-          "startDate": "01 Mar 2027",
-          "endDate": "31 Mar 2027"
-        }    
-  ]
-  
+    {
+       "offer":"Summer Splash",
+       "title":"Sizzling Summer Discounts",
+       "subTitle":"Summer Offers",
+       "description":"Make a splash this summer with our Summer Splash deals! Exclusive discounts on beach essentials, swimwear, and outdoor gear. Dive into savings and enjoy the sunny season with these limited-time offers.",
+       "startDate":"01 Jun 2025",
+       "endDate":"30 Jun 2025",
+       "id":13
+    },
+    {
+       "offer":"Outdoor Adventure Extravaganza",
+       "title":"Thrilling Outdoor Deals",
+       "subTitle":"Adventure Offers",
+       "description":"Calling all adventure enthusiasts! Embark on an outdoor adventure with our Outdoor Adventure Extravaganza. Exclusive discounts on camping gear, hiking equipment, and adrenaline-pumping experiences. Explore the great outdoors with these limited-time offers.",
+       "startDate":"10 Jul 2025",
+       "endDate":"31 Jul 2025",
+       "id":14
+    },
+    {
+       "offer":"Wellness Retreat 2.0",
+       "title":"Mind and Body Rejuvenation",
+       "subTitle":"Health and Wellness Discounts",
+       "description":"Indulge in a wellness retreat with our Wellness Retreat 2.0! Exclusive discounts on spa treatments, yoga classes, and health products. Take a step towards relaxation and rejuvenation with these limited-time offers.",
+       "startDate":"01 Aug 2025",
+       "endDate":"15 Aug 2025",
+       "id":15
+    },
+    {
+       "offer":"Back-to-School Bonanza",
+       "title":"School Year Savings",
+       "subTitle":"Education Discounts",
+       "description":"Prepare for the new school year with our Back-to-School Bonanza! Exclusive discounts on school supplies, electronics, and educational resources. Gear up for success with these limited-time offers.",
+       "startDate":"20 Aug 2025",
+       "endDate":"31 Aug 2025",
+       "id":16
+    },
+    {
+       "offer":"Autumn Harvest Special",
+       "title":"Fall Flavors Discounts",
+       "subTitle":"Seasonal Offers",
+       "description":"Celebrate the fall season with our Autumn Harvest Special! Exclusive discounts on seasonal treats, cozy essentials, and fall-themed decor. Embrace the warmth of fall with these limited-time offers.",
+       "startDate":"05 Sep 2025",
+       "endDate":"30 Sep 2025",
+       "id":17
+    },
+    {
+       "offer":"Tech Innovation Expo",
+       "title":"Cutting-Edge Tech Deals",
+       "subTitle":"Tech Discounts",
+       "description":"Stay at the forefront of technology with our Tech Innovation Expo! Exclusive discounts on the latest gadgets, electronics, and innovative tech accessories. Upgrade your tech game with these special offers.",
+       "startDate":"10 Oct 2025",
+       "endDate":"31 Oct 2025",
+       "id":18
+    },
+    {
+       "offer":"Cozy Winter Retreat",
+       "title":"Winter Warmth Discounts",
+       "subTitle":"Holiday Offers",
+       "description":"Escape the winter chill with our Cozy Winter Retreat! Exclusive discounts on winter apparel, home essentials, and festive decorations. Stay warm and festive with these limited-time holiday offers.",
+       "startDate":"15 Nov 2025",
+       "endDate":"31 Dec 2025",
+       "id":19
+    },
+    {
+       "offer":"New Year, New Adventures",
+       "title":"Adventure Awaits Deals",
+       "subTitle":"New Year Offers",
+       "description":"Embark on new adventures with our New Year, New Adventures deals! Exclusive discounts on travel experiences, outdoor activities, and exploration gear. Make 2026 a year of exciting discoveries with these limited-time offers.",
+       "startDate":"01 Jan 2026",
+       "endDate":"15 Jan 2026",
+       "id":20
+    },
+    {
+       "offer":"Valentine's Sweet Escape",
+       "title":"Romantic Getaway Special",
+       "subTitle":"Valentine's Day Offers",
+       "description":"Plan a sweet escape with our Valentine's Sweet Escape deals! Exclusive discounts on romantic getaways, fine dining experiences, and special surprises. Create lasting memories with your loved one with these limited-time offers.",
+       "startDate":"01 Feb 2026",
+       "endDate":"14 Feb 2026",
+       "id":21
+    },
+    {
+       "offer":"Spring Cleaning Extravaganza 2.0",
+       "title":"Fresh Home Discounts",
+       "subTitle":"Spring Offers",
+       "description":"Get ready for spring with our Spring Cleaning Extravaganza 2.0! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
+       "startDate":"01 Mar 2026",
+       "endDate":"31 Mar 2026",
+       "id":22
+    },
+    {
+       "offer":"Easter Celebration Bonanza",
+       "title":"Easter Deals",
+       "subTitle":"Holiday Offers",
+       "description":"Celebrate Easter with our Easter Celebration Bonanza! Exclusive discounts on festive decor, Easter treats, and family-friendly activities. Hop into savings with these special offers.",
+       "startDate":"10 Apr 2026",
+       "endDate":"21 Apr 2026",
+       "id":23
+    },
+    {
+       "offer":"Earth Day Eco-Savings 2.0",
+       "title":"Green Living Discounts",
+       "subTitle":"Environmental Offers",
+       "description":"Celebrate Earth Day with our Earth Day Eco-Savings 2.0! Exclusive discounts on eco-friendly products, sustainable living essentials, and environmental initiatives. Make a positive impact with these limited-time offers.",
+       "startDate":"22 Apr 2026",
+       "endDate":"30 Apr 2026",
+       "id":24
+    },
+    {
+       "offer":"Spring Renewal Sale",
+       "title":"Fresh Season Discounts",
+       "subTitle":"Seasonal Offers",
+       "description":"Renew your surroundings with our Spring Renewal Sale! Enjoy exclusive discounts on spring decor, gardening essentials, and outdoor living. Embrace the freshness of the season with these limited-time offers.",
+       "startDate":"01 Mar 2026",
+       "endDate":"31 Mar 2026",
+       "id":25
+    },
+    {
+       "offer":"Tech Marvel Expo",
+       "title":"Cutting-Edge Tech Deals",
+       "subTitle":"Tech Discounts",
+       "description":"Experience the marvels of technology with our Tech Marvel Expo! Exclusive discounts on the latest gadgets, electronics, and futuristic tech accessories. Upgrade your tech game with these special offers.",
+       "startDate":"05 Apr 2026",
+       "endDate":"15 Apr 2026",
+       "id":26
+    },
+    {
+       "offer":"Summer Adventure Spectacular",
+       "title":"Thrilling Outdoor Deals",
+       "subTitle":"Adventure Offers",
+       "description":"Embark on a summer adventure with our Summer Adventure Spectacular. Exclusive discounts on outdoor gear, travel experiences, and adrenaline-pumping activities. Make the most of the sunny season with these limited-time offers.",
+       "startDate":"01 Jun 2026",
+       "endDate":"30 Jun 2026",
+       "id":27
+    },
+    {
+       "offer":"Backyard Bliss 2.0",
+       "title":"Outdoor Oasis Deals",
+       "subTitle":"Home & Garden Discounts",
+       "description":"Transform your backyard into an oasis with our Backyard Bliss 2.0! Enjoy exclusive discounts on outdoor furniture, decor, and gardening supplies. Create a relaxing retreat at home with these special offers.",
+       "startDate":"10 Jul 2026",
+       "endDate":"31 Jul 2026",
+       "id":28
+    },
+    {
+       "offer":"Fitness Fanatic Bonanza",
+       "title":"Active Lifestyle Savings",
+       "subTitle":"Fitness Offers",
+       "description":"Revitalize your fitness routine with our Fitness Fanatic Bonanza! Exclusive discounts on gym memberships, workout gear, and nutritional supplements. Achieve your health goals with these limited-time offers.",
+       "startDate":"01 Aug 2026",
+       "endDate":"15 Aug 2026",
+       "id":29
+    },
+    {
+       "offer":"Back-to-School Extravaganza",
+       "title":"School Year Savings",
+       "subTitle":"Education Discounts",
+       "description":"Prepare for the new school year with our Back-to-School Extravaganza! Exclusive discounts on school supplies, electronics, and educational resources. Gear up for success with these limited-time offers.",
+       "startDate":"20 Aug 2026",
+       "endDate":"31 Aug 2026",
+       "id":30
+    },
+    {
+       "offer":"Autumn Harvest Special 2.0",
+       "title":"Fall Flavors Discounts",
+       "subTitle":"Seasonal Offers",
+       "description":"Celebrate the fall season with our Autumn Harvest Special 2.0! Exclusive discounts on seasonal treats, cozy essentials, and fall-themed decor. Embrace the warmth of fall with these limited-time offers.",
+       "startDate":"05 Sep 2026",
+       "endDate":"30 Sep 2026",
+       "id":31
+    },
+    {
+       "offer":"Tech Innovation Expo 2.0",
+       "title":"Cutting-Edge Tech Deals",
+       "subTitle":"Tech Discounts",
+       "description":"Stay at the forefront of technology with our Tech Innovation Expo 2.0! Exclusive discounts on the latest gadgets, electronics, and innovative tech accessories. Upgrade your tech game with these special offers.",
+       "startDate":"10 Oct 2026",
+       "endDate":"31 Oct 2026",
+       "id":32
+    },
+    {
+       "offer":"Cozy Winter Retreat 2.0",
+       "title":"Winter Warmth Discounts",
+       "subTitle":"Holiday Offers",
+       "description":"Escape the winter chill with our Cozy Winter Retreat 2.0! Exclusive discounts on winter apparel, home essentials, and festive decorations. Stay warm and festive with these limited-time holiday offers.",
+       "startDate":"15 Nov 2026",
+       "endDate":"31 Dec 2026",
+       "id":33
+    },
+    {
+       "offer":"New Year, New Adventures 2.0",
+       "title":"Adventure Awaits Deals",
+       "subTitle":"New Year Offers",
+       "description":"Embark on new adventures with our New Year, New Adventures 2.0 deals! Exclusive discounts on travel experiences, outdoor activities, and exploration gear. Make 2027 a year of exciting discoveries with these limited-time offers.",
+       "startDate":"01 Jan 2027",
+       "endDate":"15 Jan 2027",
+       "id":34
+    },
+    {
+       "offer":"Valentine's Sweet Escape 2.0",
+       "title":"Romantic Getaway Special",
+       "subTitle":"Valentine's Day Offers",
+       "description":"Plan a sweet escape with our Valentine's Sweet Escape 2.0 deals! Exclusive discounts on romantic getaways, fine dining experiences, and special surprises. Create lasting memories with your loved one with these limited-time offers.",
+       "startDate":"01 Feb 2027",
+       "endDate":"14 Feb 2027",
+       "id":35
+    },
+    {
+       "offer":"Spring Cleaning Extravaganza 3.0",
+       "title":"Fresh Home Discounts",
+       "subTitle":"Spring Offers",
+       "description":"Get ready for spring with our Spring Cleaning Extravaganza 3.0! Exclusive discounts on cleaning supplies, organization essentials, and home decor. Welcome spring with a fresh and clean home with these limited-time offers.",
+       "startDate":"01 Mar 2027",
+       "endDate":"31 Mar 2027",
+       "id":36
+    }
+ ]

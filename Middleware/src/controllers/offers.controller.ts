@@ -48,3 +48,18 @@ export const getAvailableOffers = async (req: Request, res: Response) => {
 		// }
 	}
 }
+
+export const getOfferDetails = async (req: any, res: any) => {
+    try {
+		const offerId = parseInt(req.params.id);
+		var offer = offers.find((x:any)=> x.id === offerId);
+		if(offer){
+			res.status(200).json({offer: offer,status:200})	  
+		}else{
+			res.status(401).json({message: 'Offer not Found',status:401})	  
+		}
+		
+	} catch (error: any) {
+		
+	}
+};
