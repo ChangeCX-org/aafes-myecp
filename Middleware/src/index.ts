@@ -2,6 +2,7 @@ import express from 'express';
 import routes from './routes';
 import cors from "cors";
 import * as dotenv from "dotenv";
+import swaggerDocs from './utils/swagger';
 
 //configure env;
 dotenv.config();
@@ -26,4 +27,5 @@ app.use('/v1', routes);
 
 app.listen(PORT, () => {
   console.log(`Application running on port ${PORT}`);
+  swaggerDocs(app)
 });
