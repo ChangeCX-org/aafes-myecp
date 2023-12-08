@@ -6,15 +6,29 @@ import { auth } from '../middlewares/auth';
 const router = express.Router();
 
 /**
- * @swagger
+ * @openapi
+ * components: 
+ *   securitySchemes:
+ *     bearerAuth:
+ *         type: http
+ *         scheme: bearer
+ *         bearerFormat: JWT
+ *         in: header
+ *         name: Authorization
+ *         description: Bearer Token
+ *   
+ */
+
+/**
+ * @openapi
  * tags:
  *   name: Offers
  *   description: API endpoints related to offers
  */
 
 /**
- * @swagger
- * /rewards/card:
+ * @openapi
+ * /v1/rewards/card:
  *   get:
  *     summary: Get available rewards
  *     tags: [rewards]
@@ -30,8 +44,8 @@ const router = express.Router();
 router.get('/card', auth, getAvailableRewards)
 
 /**
- * @swagger
- * /rewards:
+ * @openapi
+ * /v1/rewards:
  *   post:
  *     summary: Get available offers
  *     tags: [rewards]
@@ -45,8 +59,8 @@ router.get('/card', auth, getAvailableRewards)
 router.post('/', auth, postRewards);
 
 /**
- * @swagger
- * /rewards/{id}:
+ * @openapi
+ * /v1/rewards/{id}:
  *   patch:
  *     summary: Get offer details
  *     tags: [rewards]
@@ -69,8 +83,8 @@ router.post('/', auth, postRewards);
 router.patch("/:id", auth, patchRewards);
 
 /**
- * @swagger
- * /rewards/{id}:
+ * @openapi
+ * /v1/rewards/{id}:
  *   delete:
  *     summary: Get offer details
  *     tags: [rewards]

@@ -5,15 +5,28 @@ import { auth } from '../middlewares/auth';
 const router = express.Router();
 
 /**
- * @swagger
+ * @openapi
+ * components:
+ *   securitySchemes:
+ *     bearerAuth:
+ *       type: http
+ *       scheme: bearer
+ *       bearerFormat: JWT
+ *       in: header
+ *       name: Authorization
+ *       description: Bearer Token
+ */
+
+/**
+ * @openapi
  * tags:
  *   name: Offers
  *   description: API endpoints related to offers
  */
 
 /**
- * @swagger
- * /offers:
+ * @openapi
+ * /v1/offers:
  *   get:
  *     summary: Get available offers
  *     tags: [Offers]
@@ -26,8 +39,8 @@ const router = express.Router();
 router.get('/', auth, getAvailableOffers);
 
 /**
- * @swagger
- * /offers/{id}:
+ * @openapi
+ * /v1/offers/{id}:
  *   get:
  *     summary: Get offer details
  *     tags: [Offers]
