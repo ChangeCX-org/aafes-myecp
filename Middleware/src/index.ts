@@ -3,20 +3,15 @@ import routes from './routes';
 import cors from "cors";
 import * as dotenv from "dotenv";
 import swaggerDocs from './utils/swagger';
-
-//configure env;
+import swaggerUi from 'swagger-ui-express';
 dotenv.config();
 
 const app = express();
 
-const PORT =
-  (process.env.PORT && process.env.PORT !== "" && parseInt(process.env.PORT)) ||
-  3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// Cors
 app.use(cors());
 
 app.get('/', function (req, res) {
@@ -24,6 +19,8 @@ app.get('/', function (req, res) {
 });
 
 app.use('/v1', routes);
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 app.listen(PORT, () => {
   console.log(`Application running on port ${PORT}`);
