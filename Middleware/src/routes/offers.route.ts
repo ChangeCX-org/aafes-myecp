@@ -31,7 +31,7 @@ const router = express.Router();
  *     summary: Get available offers
  *     tags: [Offers]
  *     security:
- *       - BearerAuth: []
+ *       - bearerAuth: []
  *     responses:
  *       '200':
  *         description: Successful response with a list of available offers.
@@ -44,8 +44,6 @@ router.get('/', auth, getAvailableOffers);
  *   get:
  *     summary: Get offer details
  *     tags: [Offers]
- *     security:
- *       - BearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -53,6 +51,8 @@ router.get('/', auth, getAvailableOffers);
  *         required: true
  *         schema:
  *           type: integer
+ *     security:
+ *       - bearerAuth: []
  *     responses:
  *       '200':
  *         description: Successful response with details of the specified offer.
