@@ -2,15 +2,22 @@ import { Request, Response } from 'express';
 import User from '../models/registration.model';
 import { users } from '../utils/users';
 
+const dummyProfile = {
+  name: 'Ryan Reynolds',
+  phone: '9876543210',
+  email: 'ryan@gmail.com',
+  address: 'Suite 148 613 Schneider Loaf, New Lamonica, OK 87640',
+};
+
 export const userInfo = async (req: Request, res: Response) => {
-  res.status(200).json({
-    message: users,
-  });
+  return { success: true, status: 200, data: users };
 };
 
 export const updateUserInfo = async (req: Request, res: Response) => {
-  const userId = parseInt(req.params.userId);
-  const alreadyExist = await User.findByUserId(userId, users);
+  // const userId = parseInt(req.params.userId);
+  // const alreadyExist = await User.findByUserId(userId, users);
+
+  return { success: true, status: 200, message: "Users updated." };
 
   // if (alreadyExist) {
   //   res.status(200).json({
@@ -27,5 +34,5 @@ export const updateUserInfo = async (req: Request, res: Response) => {
 };
 
 export const register = async (req: any) => {
-  return { success: true, status: 200 };
+  return { success: true, status: 200, data: dummyProfile };
 };

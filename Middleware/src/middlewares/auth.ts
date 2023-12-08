@@ -8,7 +8,6 @@ export interface CustomRequest extends Request {
 
 export const auth = async (req: Request, res: Response, next: NextFunction) => {
     try {
-		console.log("header",req.header("Authorization"))
 		const token = req.header('Authorization')?.replace('Bearer ', '');
 	
 		if (!token) {
