@@ -2,6 +2,7 @@ import axios from 'axios';
 import jwt from 'jsonwebtoken';
 import User from '../models/registration.model';
 import { users } from '../utils/users';
+const bcrypt = require('bcrypt');
 
 type CreateUserResponse = {
 	Success: string;
@@ -16,6 +17,8 @@ export const login = async (req: any, res: any) => {
 
 		// ** destructure the information from user;
 		const { email, password } = user;
+		const salt = await bcrypt.genSalt(10);
+		const hashedPassword = await bcrypt.hash(password,salt); 
 
 		// const { data, status, headers } = await axios.post<CreateUserResponse>(
 		// 	`${baseUrl}/Account/LoginApi`,
@@ -93,6 +96,7 @@ export const login = async (req: any, res: any) => {
 			success: true,
 			message: "login success",
 			token: token,
+			password:hashedPassword,
 		});
 	} catch (error: any) {
 		// Send the error message to the client

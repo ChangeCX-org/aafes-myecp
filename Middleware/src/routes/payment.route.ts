@@ -72,7 +72,7 @@ router.get('/all-payments', auth, getAllPayments);
  *         '404':
  *           description: Payment not found
  */
-router.get('/payments/:Id', auth, getPaymentById);
+router.get('/:Id', auth, getPaymentById);
 
 /**
  * @openapi

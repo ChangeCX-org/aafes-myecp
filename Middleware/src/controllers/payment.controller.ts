@@ -12,6 +12,7 @@ export const getAllPayments = (req: Request, res: Response) => {
 // Get a specific payment by ID
 export const getPaymentById = (req: Request, res: Response) => {
     const paymentId = parseInt(req.params.Id);
+    console.log("id",paymentId)
     const payment = payments.find((p) => p.Id === paymentId);
 
     if (payment) {
